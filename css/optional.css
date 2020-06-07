@@ -1,0 +1,32 @@
+.navbar-brand.logo_h img{
+    width: 15rem;
+}
+
+.ti-bag{
+    color: #7ad75d;
+}
+
+.ti-bag:hover{
+    color: white;
+}
+
+.ti-bag.active{
+    color: white;
+}
+
+@media (max-width : 414px){
+    .navbar-brand.logo_h img{
+        width: 10rem;
+    }
+    .login_box_area .login_box_img{
+        right: 15px;
+        top: 83px;
+    }
+    .header_area .navbar .nav .nav-item:last-child{
+        align-self: auto;
+    }
+    .header_area .navbar{
+        padding: 5px;
+    }
+
+}

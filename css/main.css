@@ -58,7 +58,7 @@
   background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
   background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
   background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%); }
+  background: linear-gradient(90deg, #7ad75d 0%, #7ad75d 100%); }
 
 .gradient-bg-reverse, #search_input_box {
   background: -webkit-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
@@ -139,7 +139,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: black;
   font-weight: 500;
   line-height: 1.2 !important; }
 
@@ -993,7 +993,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .sticky-wrapper {
   position: absolute;
-  top: 40px;
   width: 100%; }
   @media (max-width: 991px) {
     .sticky-wrapper {
@@ -1011,7 +1010,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .header_area .main_menu .main_box {
-    background: #fff;
+    background: black;
     margin: 0px auto 0;
     max-width: 1200px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1021,7 +1020,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease 0s; }
   .header_area .navbar {
     background: #fff;
-    padding: 0px;
+    padding: 15px;
     border: 0px;
     border-radius: 0px; }
     @media (max-width: 991px) {
@@ -1034,7 +1033,7 @@ h1, h2, h3, h4, h5, h6 {
       height: 2px;
       width: 20px;
       content: "";
-      background: #000;
+      background: #fff;
       display: block;
       margin: 5px; }
     .header_area .navbar .nav .nav-item {
@@ -1045,14 +1044,14 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         font-size: 12px;
         font-weight: 500;
-        color: #222222; }
+        color: #7ad75d; }
         @media (min-width: 991px) {
           .header_area .navbar .nav .nav-item .nav-link {
             padding: 10px 0; } }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #ffba00; }
+        color: #fff; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -1061,7 +1060,7 @@ h1, h2, h3, h4, h5, h6 {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #fff; }
+          background: black; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -1103,7 +1102,7 @@ h1, h2, h3, h4, h5, h6 {
             -o-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item.active {
-              background: #ffba00; }
+              background: transparent; }
               .header_area .navbar .nav .nav-item.submenu ul .nav-item.active .nav-link {
                 color: #fff; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
@@ -1114,11 +1113,13 @@ h1, h2, h3, h4, h5, h6 {
               -o-transition: all 0.3s ease 0s;
               transition: all 0.3s ease 0s;
               display: block;
-              margin-right: 0px; }
+              margin-right: 0px; 
+              color: #7ad75d;
+            }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #ffba00;
+              background: transparent;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
@@ -1127,6 +1128,7 @@ h1, h2, h3, h4, h5, h6 {
         .header_area .navbar .nav .nav-item.submenu:hover ul .nav-item {
           margin-top: 0px; }
       .header_area .navbar .nav .nav-item:last-child {
+        align-self: center;
         margin-right: 0px; }
     @media (min-width: 991px) {
       .header_area .navbar .nav.navbar-nav.navbar-right {
@@ -1143,7 +1145,7 @@ h1, h2, h3, h4, h5, h6 {
           .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
             display: none; } }
       .header_area .navbar .nav.navbar-nav.navbar-right li span {
-        color: #222222;
+        
         line-height: 80px;
         font-weight: 500; }
     .header_area .navbar .nav.navbar-nav.navbar-right .search {
@@ -1201,14 +1203,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
-    padding: 0px 15px; } }
+    padding: 10px 15px; } }
 
 /* banner area css
 ============================================================================================ */
 .banner-area {
-  background: url(../img/banner/banner-bg.jpg) center no-repeat;
-  background-size: cover;
-  position: relative; }
+  position: relative;
+  background-color: white;
+  }
   @media (max-width: 768px) {
     .banner-area .fullscreen {
       height: 650px !important; } }
@@ -1282,8 +1284,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #222222; }
 
 .organic-breadcrumb {
-  background: url(../img/banner/common-banner.jpg) center no-repeat;
-  background-size: cover;
+  background-color: black;
   padding-top: 130px; }
   @media (max-width: 991px) {
     .organic-breadcrumb {
@@ -4712,7 +4713,9 @@ label {
   margin-right: -30px;
   position: relative; }
   .login_box_area .login_box_img img {
-    width: 100%; }
+    width: 100%; 
+    height: 30rem;
+    }
   .login_box_area .login_box_img:before {
     position: absolute;
     left: 0;
@@ -5662,7 +5665,7 @@ label {
 /* End Contact Success and error Area css
 ============================================================================================ */
 .footer-area {
-  padding-top: 100px;
+  margin-top: 100px;
   background-color: #222222; }
   .footer-area h6 {
     color: #fff;
@@ -5791,3 +5794,4 @@ label {
     color: #ffba00; }
 
 /*# sourceMappingURL=main.css.map */
+
