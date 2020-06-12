@@ -14,12 +14,72 @@
     color: white;
 }
 
+.content{
+    position: relative;
+    bottom: 4rem;
+}
+
+.container.shop{
+    position: relative;
+    top: 7rem;
+}
+
+.cart_area.cart{
+    position: relative;
+    top: 7rem;
+}
+
+.product_image_area.product{
+    position: relative;
+    top: 7rem;
+}
+
+.checkout_area.section_gap.checkout{
+    position: relative;
+    top: 7rem;
+}
+
+.order_details.section_gap.details{
+    position: relative;
+    top: 7rem;
+}
+
 @media (max-width : 414px){
+    .container.shop{
+        top: 4rem;
+    }
+    .cart_area.cart{
+        top: auto;
+        padding-top: 80px;
+    }
+    .product_image_area{
+        padding-top: 80px;   
+    }
+    .product_image_area.product{
+        top: auto;
+        margin-bottom: 2rem;
+    }
+    .checkout_area.section_gap.checkout{
+        position: relative;
+        top: 3rem;
+    }
+    .order_details.section_gap.details{
+        position: relative;
+        top: 3rem;
+    }
+    .col-lg-4{
+        margin-bottom: 2rem;
+    }
     .navbar-brand.logo_h img{
         width: 10rem;
     }
     .login_box_area .login_box_img{
         right: 15px;
+        bottom: 1.5rem;
+    }
+    .login_box_area .login_box_img.signup{
+        right: 15px;
+        bottom: 0.5rem;
     }
     .header_area .navbar .nav .nav-item:last-child{
         align-self: auto;
