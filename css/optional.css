@@ -74,9 +74,11 @@
         width: 10rem;
     }
     .login_box_area .login_box_img{
+        display: none;
         right: 15px;
     }
     .login_box_area .login_box_img.signup{
+        display: none;
         right: 15px;
     }
     .header_area .navbar .nav .nav-item:last-child{
