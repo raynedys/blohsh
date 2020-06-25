@@ -15,6 +15,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
+var deferredPrompt;
 window.addEventListener('beforeinstallprompt', function (event) {
   console.log('beforeinstallprompt fired');
   event.preventDefault();
