@@ -71,7 +71,7 @@
   background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
   background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
   background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent; }
 
 /* Start primary btn css
@@ -1339,7 +1339,7 @@ h1, h2, h3, h4, h5, h6 {
   background: -moz-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
   background: -webkit-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
   background: -ms-linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent; }
 
 /* start features area css
@@ -2321,7 +2321,7 @@ label {
         font-size: 14px;
         font-weight: 400;
         background: -webkit-linear-gradient(-180deg, #555555, #555555);
-        -webkit-background-clip: text;
+        
         -webkit-text-fill-color: transparent; }
       .mini-cart-2a .single-cart-item .middle h6 {
         font-weight: 700;
@@ -2330,7 +2330,7 @@ label {
       cursor: pointer; }
       .mini-cart-2a .single-cart-item .cross span {
         background: -webkit-linear-gradient(-180deg, #777, #777);
-        -webkit-background-clip: text;
+        
         -webkit-text-fill-color: transparent; }
   .mini-cart-2a .proceed-btn {
     padding: 20px; }
@@ -2372,7 +2372,7 @@ label {
         font-size: 14px;
         font-weight: 400;
         background: -webkit-linear-gradient(-180deg, #555555, #555555);
-        -webkit-background-clip: text;
+       
         -webkit-text-fill-color: transparent; }
       .mini-cart .single-cart-item .middle h6 {
         font-weight: 700;
@@ -2381,7 +2381,7 @@ label {
       cursor: pointer; }
       .mini-cart .single-cart-item .cross span {
         background: -webkit-linear-gradient(-180deg, #777, #777);
-        -webkit-background-clip: text;
+        
         -webkit-text-fill-color: transparent; }
   .mini-cart .proceed-btn {
     padding: 20px; }
@@ -2683,7 +2683,7 @@ label {
       margin-bottom: 5px;
       display: inline-block;
       background: -webkit-linear-gradient(-180deg, #555555, #555555);
-      -webkit-background-clip: text;
+      
       -webkit-text-fill-color: transparent; }
     .single-search-product .desc .price {
       font-weight: 700;
@@ -3008,7 +3008,7 @@ label {
       margin-bottom: 5px;
       display: inline-block;
       background: -webkit-linear-gradient(-180deg, #555555, #555555);
-      -webkit-background-clip: text;
+     
       -webkit-text-fill-color: transparent; }
     .single-sidebar-product .desc .price {
       font-weight: 700;
@@ -4128,7 +4128,7 @@ label {
         position: absolute;
         right: 0px;
         top: 14px;
-        @icnlude transition; }
+      }
         .review_item .media .media-body .reply_btn:hover {
           background: #ffba00;
           border-color: #ffba00;
@@ -4867,7 +4867,7 @@ label {
   height: 14px;
   z-index: 9;
   cursor: pointer;
-  -webkit-transition: all 0.25s linear;
+  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #222222;
